@@ -39,7 +39,6 @@ function CustomCollection() {
       .then((res) => res.json())
       .then((data) => {
 
-        console.log("SHOPIFY DATA:", data);
 
         const formatted =
           data?.data?.products?.edges?.map((item) => ({
@@ -92,3 +91,4 @@ function CustomCollection() {
 }
 
 export default CustomCollection;
+
