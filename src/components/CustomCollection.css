@@ -1,0 +1,16 @@
+.collectin_List img {
+    width: 100%;
+}
+.collectin_List img {
+    width: 100%;
+}
+
+ul.col_main {
+    display: flex;
+    gap: 14px;
+    padding: 0;
+}
+
+ul.col_main li {
+    display: block;
+}

@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.container {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.banner {
+  background-image: url("https://placehold.co/1200x600");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.banner-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner button {
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
