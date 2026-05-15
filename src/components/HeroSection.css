@@ -1,0 +1,28 @@
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero_image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.hero_content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero_content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero_content button {
+  padding: 14px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}

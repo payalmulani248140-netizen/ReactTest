@@ -1,11 +1,14 @@
 import { handleShopClick } from "../scripts/myScript";
 import BannerSlider from "../components/BannerSlider";
 import CustomCollection from "../components/CustomCollection";
-
+import HeroSection from "../components/HeroSection";
 function Home() {
   return (
     
     <div className="container">
+
+      <HeroSection />
+      
       <BannerSlider />
       <CustomCollection />
 
